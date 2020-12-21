@@ -36,7 +36,7 @@ git:
   depth: 1
 
 install:
-  - travis_retry composer install --prefer-dist --no-interaction
+  - travis_retry composer update --prefer-dist --no-interaction
 
 before_script:
   # Get structure from 0.44.1, to test all migration steps.
