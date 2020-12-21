@@ -1,9 +1,9 @@
 language: php
 sudo: required
-dist: trusty
+dist: bionic
 
 addons:
-  mariadb: 10.1
+  mariadb: 10.2
 
 cache:
   directories:
@@ -11,6 +11,7 @@ cache:
     - $HOME/.composer/cache
 
 php:
+  - 8.0
   - 7.4
   - 7.3
   - 7.2
